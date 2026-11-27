@@ -1,0 +1,44 @@
+
+# Core backend
+fastapi
+uvicorn[standard]
+sqlalchemy
+aiosqlite
+alembic
+
+# Validation and settings
+pydantic>=2.12
+pydantic-settings
+email-validator
+
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.0.1
+python-multipart
+
+# Background tasks and caching
+redis
+celery
+websockets
+httpx
+
+# Computer vision and AI
+opencv-python-headless>=4.12
+numpy>=2.3
+pillow>=12
+scikit-learn>=1.7.2
+xgboost>=3.1
+networkx
+filterpy
+
+# Utilities
+python-dotenv
+python-dateutil
+jinja2
+aiofiles
+orjson
+
+# Testing
+pytest
+pytest-asyncio
